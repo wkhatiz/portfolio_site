@@ -46,8 +46,15 @@ sendEmailBtn.addEventListener('click', (e) => {
         return;
     }    
 
-    spinner.classList.add("display");
+    spinner.style.visibility = "visible";
+    
 })
+
+window.addEventListener('load', () => {
+    spinner.style.visibility = "hidden";
+})
+
+
 
 
 
