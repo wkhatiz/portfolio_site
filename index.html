@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Waled Khatiz</title>
+    <link rel="stylesheet" href="mainstyles.css"/>
+    <link rel="stylesheet" href="responsivestyles.css"/>
+    <script defer src="script.js"></script>
+  </head>
+  <body>
+    <nav>
+        <ul>
+            <li class="navBtn">About</li>
+            <li class="navBtn">Projects</li>
+            <li class="navBtn">Contact</li>
+        </ul>
+        </nav>
+    <section id="splash">
+        <div id="splashTxtContainer">
+            <p class="whisper">Hi, I'm</p>
+            <h1>Waled Khatiz</h1>
+            <p class="whisper">and I'm a</p>
+            <h2>Software Developer from Western Sydney University</h2>
+            <p class="tag">Based in Sydney</p>
+            <p class="tag">Australian Citizen</p>
+            <p class="tag">Bachelor of Computer Science</p>
+        </div>
+        <div><img src="assets/computer_dog.jpg"/></div>
+    </section>
+
+    <section id="About">
+        <h2>About</h2>
+        <p class="whisper">a bite sized bit about me</p>
+
+        <div class="cardsContainer">
+            <div class="big card">
+            <h3>Experiences</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut.
+                In which toil and pain can procure him some great pleasure. To take a
+                trivial example, which of us ever undertakes laborious physical
+                exercise, except to obtain some advantage from it?
+            </p>
+            </div>
+
+            
+            <div class="big card">
+            <h3>Skills</h3>
+            <p>
+                Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                et quas molestias excepturi sint occaecati cupiditate non provident
+            </p>
+            </div>
+        </div>
+    </section>
+
+    <section id="Projects">
+        <h2>Projects</h2>
+        <p class="whisper">Somethings I've built in my free time</p>
+
+        <div class="cardsContainer">
+            <div id="walerdleCard" class="little card">
+                <h3>Walerdle</h3>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident
+                </p>
+                <div class="cardBtnContainer">
+                    <button>Code</button>
+                    <button>Live</button>
+                </div>
+            </div>
+
+            <div id="hdigoothsCard" class="little card">
+                <h3>HDIGOOTHS</h3>
+                <p>
+                    Sed ut perspiciatis unde omnis iste natus error sit voluptatem
+                    accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab
+                    illo inventore veritatis et quasi architecto beatae vitae dicta sunt
+                    explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur.
+                    blanditiis praesentium voluptatum deleniti atque corrupti quos dolores
+                    et quas molestias excepturi sint occaecati cupiditate non provident
+                </p>
+                <div class="cardBtnContainer">
+                    <button>Code</button>
+                    <button>Live</button>
+                </div>
+            </div>
+        </div>
+    </section>  
+
+    <section id="Contact">
+        
+        <h2>Contact Me</h2>
+        <p class="whisper">Want to talk? Leave me a message and I’ll get back to you</p>
+        <form action="https://formspree.io/f/xayzzlbr" method="post">
+            <input name="name" id="namefield" class="textBox" type="text" placeholder="Your Name" required/>
+            <input name="email" id="emailfield" class="textBox" type="text" placeholder="Your Email" required/>
+            <input id="sendEmailBtn" class="formBtn" type="submit" value="Send"/> 
+            <div class="spinner"></div>
+            <textarea name="message" id="bodyfield" class="textBox" placeholder="Your Kind Words" required></textarea>
+        </form>
+    </section>
+  </body>
+</html>
